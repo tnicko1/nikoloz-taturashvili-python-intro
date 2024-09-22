@@ -2,7 +2,7 @@ import requests
 from datetime import datetime
 
 # CoinGecko API key
-API_KEY = 'CG-KmxN7R3DbaNTNCnuqfWfFLU4'
+API_KEY = 'Use your own API Key' #my API key was here but the code and the Key itself are now deleted
 
 
 def get_bitcoin_price(date):
