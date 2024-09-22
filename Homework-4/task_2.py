@@ -5,6 +5,10 @@ if number_of_integers > 30 or number_of_integers < 1:
     print("Invalid number of integers")
     exit(1)
 
+max_number = 0
 for i in range(number_of_integers):
     random_number = randint(0, 1000)
-    print(f"Integer {i + 1}: {random_number}")
+    if random_number > max_number:
+        max_number = random_number
+
+print(f"Max number is {max_number}")
