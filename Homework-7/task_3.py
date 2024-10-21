@@ -21,6 +21,9 @@ while index < length:
 
     index += 1
 
-print(f"First character: {first_char}")
-print(f"Last character: {last_char}")
-print(f"Middle character(s): {middle_chars}")
+i = 0
+while i < 5:
+    print(f"First character: {first_char}")
+    print(f"Last character: {last_char}")
+    print(f"Middle character(s): {middle_chars}\n")
+    i += 1
