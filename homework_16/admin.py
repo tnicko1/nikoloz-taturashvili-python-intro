@@ -63,8 +63,7 @@ def add_session():
     room_length = int(input("Room length: "))
     room_width = int(input("Room width: "))
     capacity = room_length * room_width
-    # TODO: session_id may be used already, need to check
-    session_id = randint(1, 1000)
+    session_id = len(sessions) + 1
     session = {
         "session_id": session_id,
         "film_name": film_name,
