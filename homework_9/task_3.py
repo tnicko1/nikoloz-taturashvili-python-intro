@@ -1,3 +1,9 @@
+"""
+(*) For the second problem, visualize it with turtle (or any other library you like).
+Draw an XOY coordinate plane and plot points on this plane.
+Color the points that satisfy the condition math.sqrt(a ** 2 + b ** 2) <= 1 red, the rest green.
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 

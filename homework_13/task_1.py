@@ -1,3 +1,12 @@
+"""
+Write a program that generates 100 random numbers from 10 to 1000000000.
+The program should find the shortest number in the sequence, the longest number.
+The program should sort the numbers by length in ascending, descending order.
+Print the result on the screen.
+
+Use the min, max, sorted functions
+"""
+
 from random import randint
 
 numbers = [randint(10, 1000000000) for _ in range(100)]

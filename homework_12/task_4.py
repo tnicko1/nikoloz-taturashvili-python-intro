@@ -1,3 +1,10 @@
+"""
+Write a function that takes two sorted lists and returns a new list containing the elements from both lists in sorted order.
+From the main function, test your function for different inputs.
+Do not use the sort and sorted functions.
+Try to merge the two lists so that the sorting is not broken.
+"""
+
 def merge_sorted_lists(list1, list2):
     result = []
     i = j = 0

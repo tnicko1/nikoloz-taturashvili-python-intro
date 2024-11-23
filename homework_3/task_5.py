@@ -1,3 +1,9 @@
+"""
+(*) Write a program that will take the year, month, and day that the user bought Bitcoin,
+also take the amount in dollars that was paid to buy Bitcoin on the entered date,
+and print the amount in dollars that was won or lost based on the current price.
+"""
+
 import requests
 from datetime import datetime
 

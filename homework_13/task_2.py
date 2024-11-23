@@ -1,3 +1,8 @@
+"""
+Create three lists and fill them with random numbers.
+Print the sums of numbers at the same index on the screen.
+"""
+
 from random import randint
 
 list1 = [randint(1, 100) for _ in range(10)]

@@ -1,3 +1,9 @@
+"""
+Write a program that accepts a positive integer - n.
+The program should generate n random integers from the range 0 – 1000 and print the maximum of them on the screen.
+0 < n < 30.
+"""
+
 from random import randint
 
 number_of_integers = int(input("Enter how many integers (max: 30): "))

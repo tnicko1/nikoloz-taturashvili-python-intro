@@ -1,3 +1,23 @@
+"""
+(*) Write a program that encrypts or decrypts the text entered by the user and prints it on the screen.
+Leave any characters that are not a-z unchanged.
+The encryption logic is as follows, each character (a-z) should be replaced by the character to its right on the keyboard.
+If there is no English character to the right of the character on the keyboard,
+then it should go to the first character from this string.
+For example: p -> q, l -> a. etc.
+
+The program should convert only lowercase English characters a-z.
+Example 1:
+Enter action (e/d): e
+Enter text: power
+qpert
+
+Example 2:
+Enter action (e/d): d
+Enter text: quyjpm
+python
+"""
+
 qwerty = "qwertyuiopasdfghjklzxcvbnm"
 
 choice = input("Encrypt or Decrypt (e/d): ").lower()

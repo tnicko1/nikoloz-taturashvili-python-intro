@@ -1,3 +1,12 @@
+"""
+Write a program that accepts an integer.
+The program should print all the prime factors on a single line.
+The maximum value of the prime factor should be 10.
+Example: If we pass 6 to the program, the output should be 2, 3.
+Explanation: 6 is divisible by both 2 and 3. 2 and 3 are prime numbers.
+Protect the program from arguments that are not allowed.
+"""
+
 user_input = int(input("Enter a positive integer(max: 10) - "))
 
 if user_input < 0 or user_input > 10:

@@ -1,3 +1,8 @@
+"""
+Write a function that calculates the factorial of a number.
+Call the function several times with different arguments to demonstrate its operation.
+"""
+
 def factorial(n):
     if n == 0:
         return 1

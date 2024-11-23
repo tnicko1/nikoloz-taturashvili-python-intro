@@ -1,3 +1,13 @@
+"""
+Write a program that accepts a natural number n. n > 1
+The program should calculate the number x and print it on the screen.
+The principle of calculating the number x is as follows.
+x = 4 * (1 - 1/3 + 1/5 - 1/7 + 1/9 - ... (+/-)1 / (2n-1))
+
+Run the program and pass the following values: 10, 100, 10000, 100000.
+What do you notice?
+"""
+
 n = int(input("Enter a number: "))
 
 if n < 1:

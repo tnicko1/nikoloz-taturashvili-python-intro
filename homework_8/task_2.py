@@ -1,3 +1,8 @@
+"""
+Write a program that accepts two strings.
+The program should check whether it is possible to obtain a second string using the characters of one string.
+"""
+
 def easter_egg():
     print("I am lord Voldemort!")
     exit(1)

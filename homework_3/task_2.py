@@ -1,3 +1,8 @@
+"""
+Write a program that generates a non-integer random number and rounds it to the nearest tenth.
+Print the result on the screen. Choose the rounding function of your choice. See module math
+"""
+
 import random
 
 print("The program will display a random floating-point number")

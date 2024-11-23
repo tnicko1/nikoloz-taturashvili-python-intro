@@ -1,3 +1,11 @@
+"""
+Write a program that accepts a positive integer.
+The program should find and print on the screen all the divisors of this number in one line.
+0 < n < 1000.
+For example: Enter number: 18
+1 2 3 6 9 18
+"""
+
 num = int(input("Enter a number (<1000): "))
 if abs(num) > 1000: #I'm allowing negative numbers as well
     print("Invalid number")

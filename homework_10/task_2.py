@@ -1,3 +1,8 @@
+"""
+Write a function that takes an unspecified number of numeric arguments and returns the maximum.
+Call the function multiple times for different arguments to demonstrate its performance.
+"""
+
 def find_maximum(*numbers):
     if not numbers:
         return None

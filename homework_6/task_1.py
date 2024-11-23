@@ -1,3 +1,13 @@
+"""
+Write a program that “guesses” an integer from 0 to 100.
+The user must enter his or her guess of the number.
+If the user’s guess matches the number the program guessed, print You are winner.
+If the user’s guess is greater than the number the computer guessed, print high.
+If the user’s guess is less than the number the computer guessed, print low.
+The user has a maximum of 10 attempts.
+If the user fails to guess the number in 10 attempts, print Computer is winner.
+"""
+
 from random import randint
 
 random_number = randint(0, 100)

@@ -1,3 +1,8 @@
+"""
+Write a program that allows the user to enter the sides of a triangle into the program.
+The program should print the area and perimeter of the triangle on the screen.
+"""
+
 import math
 
 print("You are about to draw a triangle, please provide dimensions of all sides")

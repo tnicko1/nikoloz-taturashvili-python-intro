@@ -1,3 +1,8 @@
+"""
+Write a function that determines whether a given number is prime or not.
+Call the function several times with different arguments to demonstrate its operation.
+"""
+
 def is_prime(n):
     if n <= 1:
         return False

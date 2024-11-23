@@ -1,3 +1,12 @@
+"""
+Write a program that accepts the number of players.
+The program should generate a pair of random dice for each player and print them on the screen.
+For example:
+Enter players number: 2
+3 4
+2 1
+"""
+
 from random import randint
 
 player_number = int(input("How many players: "))

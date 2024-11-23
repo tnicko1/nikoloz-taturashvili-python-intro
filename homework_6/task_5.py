@@ -1,3 +1,15 @@
+"""
+(*) Write a program that accepts an integer - n, where 0 < n < 10.
+The program should print the structure shown. Use while loop
+
+          0
+        1 0 1
+      2 1 0 1 2
+    3 2 1 0 1 2 3
+  4 3 2 1 0 1 2 3 4
+5 4 3 2 1 0 1 2 3 4 5
+"""
+
 n = int(input("Enter a number from 0 to 10: "))
 if n < 0 or n > 10:
     print("Invalid input")

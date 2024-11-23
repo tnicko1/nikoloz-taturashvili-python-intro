@@ -1,3 +1,10 @@
+"""
+Write a program that accepts two integers a and b, where 0 < a , b < 10000,
+and prints the greatest common divisor of these two numbers.
+
+Solve this problem using both iterative and recursive methods.
+"""
+
 def highest_common_factor(a, b):
     while b:
         a, b = b, a % b

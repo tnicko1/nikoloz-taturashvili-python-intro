@@ -1,3 +1,9 @@
+"""
+Create a list and fill it with words.
+The program should filter the list, discarding all items that contain more than 3 characters,
+and print the remaining words on the screen in uppercase.
+"""
+
 words = ['Bakkers', 'Metacorp', 'Militech', 'Arasaka', 'Kendachi', 'KangTao', 'Kiroshi', 'Maelstrom', 'NetWatch', 'NUSA', 'Raven', 'SovOil', 'Trauma', 'Tyger Claws', 'Wraiths', 'Zetatech', 'Biotechnica']
 
 filtered_words = [word.upper() for word in words if len(word) <= 3]

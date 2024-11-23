@@ -1,3 +1,9 @@
+"""
+Write a program that takes 3 values: the year a person was born, the month they were born in, and the day they were born.
+Then it prints the day of the week the person was born on.
+See module datetime
+"""
+
 import datetime
 
 birth_year = int(input("Enter your birth year: "))

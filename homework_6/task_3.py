@@ -1,3 +1,14 @@
+"""
+Write a program that accepts a non-negative integer - n.
+0 <= n < 10000 and prints the inverse of this number and the sum of the digits in this number.
+Use a while loop
+
+Example:
+enter number: 7923
+reversed number is 3297
+sum of digits: 21
+"""
+
 number = int(input("Enter a number from 0 to 10000: "))
 
 if number < 0 or number > 10000:

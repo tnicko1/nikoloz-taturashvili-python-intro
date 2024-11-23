@@ -1,3 +1,8 @@
+"""
+Write a function that takes a text and returns the text in reverse order.
+Call the function several times with different arguments to demonstrate its operation.
+"""
+
 def inverted_text(text: str) -> str:
     return text[::-1]
 

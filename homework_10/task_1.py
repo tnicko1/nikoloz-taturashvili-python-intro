@@ -1,3 +1,8 @@
+"""
+Write a function that takes a text as an argument and counts the number of vowels in that text.
+Call the function several times for different arguments to demonstrate its operation.
+"""
+
 def vowel_count(string):
     vowels = "aeiouAEIOU"
     count = 0

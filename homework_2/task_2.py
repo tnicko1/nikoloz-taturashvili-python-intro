@@ -1,3 +1,7 @@
+"""
+Write a program that takes two numbers, determines whether the first number is a multiple of the second number, and prints it to the screen.
+"""
+
 #I wanted to add input validation as well, but it seems too advanced for now
 #So I will assume that user correctly enters the integer value
 number_1 = int(input("Enter first number: "))

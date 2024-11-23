@@ -1,3 +1,10 @@
+"""
+Write a program that generates 50 random numbers from 1 to 30 and writes them to a list.
+The program should iterate over the list and for each element,
+write that element into a new list as many times as its value.
+Print the length of the new list and the list itself to the screen.
+"""
+
 from random import randint
 
 def foo():

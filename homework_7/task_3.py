@@ -1,3 +1,8 @@
+"""
+The program should take a word and print the last, first, and middle letters 5 times using a while loop.
+If the length of the input text is even, then the program should print the middle two characters.
+"""
+
 user_input = input("Enter a string: ")
 
 length = len(user_input)

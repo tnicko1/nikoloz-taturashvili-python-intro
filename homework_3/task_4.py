@@ -1,3 +1,8 @@
+"""
+4. Write a program that, when run, prints a random value of a card
+(a total of 52 possible values: 4 suits (clubs (♣), diamonds (♦), hearts (♥) and spades (♠)) and 13 values (A, K, Q, J, 10, 9, 8, 7, 6, 5, 4, 3, 2))
+"""
+
 import random
 
 random_color_index = random.randint(1, 4)
