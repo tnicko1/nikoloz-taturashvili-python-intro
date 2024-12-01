@@ -1,0 +1,5 @@
+user_name,product_name,amount,price
+nikoloz_taturashvili,apple,1,1.5
+nikoloz_taturashvili,banana,2,1.2
+nikoloz_taturashvili,orange,3,11
+nikoloz_chachua,waffle,3,11

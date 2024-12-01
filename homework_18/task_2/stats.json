@@ -1,0 +1,24 @@
+{
+    "max_spent_single_product": {
+        "users": [
+            "nikoloz_taturashvili",
+            "nikoloz_chachua"
+        ],
+        "amount": 33.0
+    },
+    "max_spent_all_products": {
+        "users": [
+            "nikoloz_taturashvili"
+        ],
+        "amount": 36.9
+    },
+    "average_price": 6.175,
+    "average_amount": 2.25,
+    "most_sold_product": {
+        "products": [
+            "orange",
+            "waffle"
+        ],
+        "amount": 3
+    }
+}
