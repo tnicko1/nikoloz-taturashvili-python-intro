@@ -1,3 +1,20 @@
+"""
+Write a program that reads sales information from the file with the structure described in the previous task.
+
+a. The program should find the customer who made the maximum purchase (by the number of products in one purchase), if there are several, then a list of customers.
+
+b. The program should find the customer who made the maximum purchase (by the total value of all purchases), if there are several, then a list of customers.
+
+c. The program should find the arithmetic mean of the purchase value
+
+d. The program should find the arithmetic mean of the quantities of orders
+
+e. The program should find the product sold in the largest quantity, if there are several, then a list of products.
+
+Collect the found data in a dict type object and write it to the stats.json file. Format the stats.json file so that the data is presented in an easily readable form.
+"""
+
+
 import json
 
 file = open("../task_1/data.txt", "r")
