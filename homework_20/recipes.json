@@ -1,0 +1,58 @@
+[
+  {
+    "name" :"Chicken Curry",
+    "ingredients": [
+      "chicken thighs",
+      "onion",
+      "garlic",
+      "ginger",
+      "coconut milk",
+      "curry powder",
+      "potatoes",
+      "carrots",
+      "rice"
+    ]
+  },
+  {
+    "name": "Sushi Roll",
+    "ingredients": [
+      "sushi rice",
+      "nori",
+      "raw salmon",
+      "avocado",
+      "cucumber",
+      "soy sauce",
+      "wasabi",
+      "pickled ginger"
+    ]
+  },
+  {
+    "name": "Caprese Salad",
+    "ingredients": [
+      "tomatoes",
+      "fresh mozzarella cheese",
+      "fresh basil leaves",
+      "balsamic vinegar",
+      "olive oil",
+      "salt",
+      "pepper"
+    ]
+  },
+  {
+    "name": "Vegetarian Chili",
+    "ingredients": [
+      "black beans",
+      "kidney beans",
+      "diced tomatoes",
+      "onion",
+      "garlic",
+      "bell peppers",
+      "chili powder",
+      "cumin",
+      "vegetable broth",
+      "corn",
+      "lime",
+      "cilantro"
+    ]
+  }
+]
