@@ -10,6 +10,8 @@ class Student:
             print("Invalid score")
 
     def get_average(self):
+        if not self._scores:
+            return 0
         return sum(self._scores) / len(self._scores)
 
     def get_scores(self):
